@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	background: #f1fbff;
+}
+.section-padding {
+	padding: 100px 0;
+}
+.experiencia {
+    padding: 80px 0 60px;
+	margin-left: 290px;
+}
+
+.exp1 .kpi {
+	background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+	border: 1px solid #ffad06;
+}
+
+.exp4 .kpi {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+	border: 1px solid #ffad06;
+}
+
+.exp2 .kpi {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+	border: 1px solid rgb(31, 25, 25);
+}
+
+.exp3 .kpi {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+	border: 1px solid rgb(31, 25, 25);
+}
+
+.experiencia .kpi .number {
+    font-family: sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.roboto .experiencia .kpi .number {
+    font-family: 'Roboto',sans-serif
+}
+
+.experiencia .kpi .description {
+    font-size: 18px;
+}
+
+.experiencia .parceiro {
+    border: 1px solid #93ba93;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px
+}
+
+.experiencia .img-desktop-only {
+    background-size: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-position-x: right
+}
+
+.no-webp .experiencia .img-desktop-only {
+    background-image: url(/sites/all/themes/eqseed/assets/images/homev2-numeros2.jpg)
+}
+
+.webp .experiencia .img-desktop-only {
+    background-image: url(/sites/all/themes/eqseed/assets/images/homev2-numeros2.webp)
+}
+
+.experiencia .experiencia-muted {
+    color: #7b7b7b;
+    font-style: normal;
+    font-weight: 300
+}
+
+.carousel-item {
+	height: 80vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+	z-index: 2;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.carousel-inner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 1;
+}
+.navbar .getstarted {
+	background: #106eea;
+	margin-left: 30px;
+	border-radius: 4px;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	padding: .5rem 1rem;
+	line-height: 2.3;
+}
+.navbar-nav a {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.navbar-light .navbar-brand {
+	color: #000;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+	color: #000;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #000;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #000;
+}
+.w-100 {
+	height: 100vh;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.portfolio .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.team .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.services .card-body i {
+	font-size: 50px;
+}
+.team .card-body i {
+	font-size: 20px;
+}
+h5{
+	margin-bottom: 60px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.carousel-caption {
+		bottom: 370px;
+	}
+	.carousel-caption p {
+		width: 100%;
+	}
+	.card {
+		margin-bottom: 30px;
+	}
+	.img-area img {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+	}
+	.carousel-caption {
+		bottom: 125px;
+	}
+	.carousel-caption h5 {
+		font-size: 17px;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 15px;
+	}
+	.carousel-caption p {
+		width: 100%;
+		line-height: 1.6;
+		font-size: 12px;
+	}
+	.about-text {
+		padding-top: 50px;
+	}
+	.card {
+		margin-bottom: 30px;
+	}	
+}
+@media only screen and (max-width: 991px) {
+	.experiencia{
+		margin-left: 0px;
+	}
+}

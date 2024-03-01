@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	background: #f1fbff;
+}
+
+.barra-amarela {
+    background-color: #ffad06;
+    height: 5px; /* Altura da barra amarela */
+    width: 100%; /* Cobrir toda a largura */
+}
+.section-padding {
+	padding: 100px 0;
+}
+.experiencia {
+    padding: 80px 0 60px;
+	margin-left: 290px;
+}
+
+.exp1 .kpi {
+	background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+	border: 1px solid #ffad06;
+}
+
+.exp4 .kpi {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+	border: 1px solid #ffad06;
+}
+
+.exp2 .kpi {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+	border: 1px solid rgb(31, 25, 25);
+}
+
+.exp3 .kpi {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+	border: 1px solid rgb(31, 25, 25);
+}
+
+.experiencia .kpi .number {
+    font-family: sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.roboto .experiencia .kpi .number {
+    font-family: 'Roboto',sans-serif
+}
+
+.experiencia .kpi .description {
+    font-size: 18px;
+}
+
+.experiencia .parceiro {
+    border: 1px solid #93ba93;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px
+}
+
+.experiencia .img-desktop-only {
+    background-size: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-position-x: right
+}
+
+.no-webp .experiencia .img-desktop-only {
+    background-image: url(/sites/all/themes/eqseed/assets/images/homev2-numeros2.jpg)
+}
+
+.webp .experiencia .img-desktop-only {
+    background-image: url(/sites/all/themes/eqseed/assets/images/homev2-numeros2.webp)
+}
+
+.experiencia .experiencia-muted {
+    color: #7b7b7b;
+    font-style: normal;
+    font-weight: 300
+}
+
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+	z-index: 2;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.carousel-inner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 1;
+}
+.navbar .getstarted {
+	background: #106eea;
+	margin-left: 30px;
+	border-radius: 4px;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	padding: .5rem 1rem;
+	line-height: 2.3;
+}
+.navbar-nav a {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.navbar-light .navbar-brand {
+	color: #000;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+	color: #000;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #000;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #000;
+}
+.w-100 {
+	height: 100vh;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.portfolio .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.team .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.services .card-body i {
+	font-size: 50px;
+}
+.team .card-body i {
+	font-size: 20px;
+}
+h5{
+	margin-bottom: 60px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.carousel-caption {
+		bottom: 370px;
+	}
+	.carousel-caption p {
+		width: 100%;
+	}
+	.card {
+		margin-bottom: 30px;
+	}
+	.img-area img {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+	}
+	.carousel-caption {
+		bottom: 125px;
+	}
+	.carousel-caption h5 {
+		font-size: 17px;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 15px;
+	}
+	.carousel-caption p {
+		width: 100%;
+		line-height: 1.6;
+		font-size: 12px;
+	}
+	.about-text {
+		padding-top: 50px;
+	}
+	.card {
+		margin-bottom: 30px;
+	}	
+}
+@media only screen and (max-width: 991px) {
+	.experiencia{
+		margin-left: 0px;
+	}
+}
+
+#topo-rodada {
+    margin-bottom: 40px;
+    color: #323232
+}
+
+.company-summary {
+    position: relative
+}
+
+.company-summary-cover {
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+.company-logo {
+    width: 134px;
+    height: 125px;
+    filter: drop-shadow(0px 4px 26px rgba(0,0,0,0.25));
+    position: absolute;
+    top: -30px
+}
+
+.company-name-description {
+    margin-left: 170px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    min-height: 120px
+}
+
+.company-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    padding-bottom: 5px
+}
+
+.company-description {
+    margin-bottom: 7px
+}
+
+.label {
+    border-radius: 5px;
+    font-weight: 400;
+    padding: .2em 1em .3em;
+    margin-right: 5px;
+    margin-bottom: 7px;
+    display: inline-block
+}
+
+.label-green {
+    background-color: #229322
+}
+
+.label-red {
+    background-color: #e13c3c
+}
+
+.label-dark {
+    background-color: #323232
+}
+
+.rodada-labels.visible-xs {
+    margin-bottom: 30px
+}
+
+.total-raised-value {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 6px 0 10px
+}
+
+.bar-border {
+    height: 26px;
+    border: 1px solid #cacaca;
+    border-radius: 2px;
+    padding: 3px;
+    margin-right: 30px
+}
+
+.bar-back {
+    position: relative
+}
+
+.bar-reserved {
+    background-color: #f3e993;
+    border-radius: 2px;
+    height: 19px;
+    position: absolute;
+    max-width: 100%
+}
+
+.bar-signed {
+    background-color: #e7d109;
+    border-radius: 2px;
+    height: 19px;
+    position: absolute;
+    max-width: 100%
+}
+
+.bar-step1,.bar-step2 {
+    position: absolute;
+    top: -12px;
+    font-size: 12px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: 40px
+}
+
+.bar-step1.checked,.bar-step2.checked {
+    background-image: url(/sites/all/themes/eqseed/assets/icons/rodada-checked.svg);
+    background-size: 40px
+}
+
+.bar-step1.unchecked,.bar-step2.unchecked {
+    background-image: url(/sites/all/themes/eqseed/assets/icons/rodada-unchecked.svg);
+    background-size: 40px
+}
+
+.bar-step1 {
+    width: 75px
+}
+
+.bar-step2 {
+    right: -30px
+}
+
+.percentages {
+    margin: 20px 5px 30px
+}
+
+.percentages>div {
+    margin-bottom: 6px
+}
+
+.percentages-legend {
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 2px
+}
+
+.signed .percentages-legend {
+    background-color: #e7d109
+}
+
+.reserved .percentages-legend {
+    background-color: #f3e993
+}
+
+.stats {
+    border: .5px solid #cacaca;
+    border-radius: 4px;
+    padding: 15px 15px 0;
+    margin: 15px 0;
+    position: relative
+}
+
+.stat {
+    margin-bottom: 20px
+}
+
+.stat-label {
+    margin-bottom: 5px
+}
+
+.stat-value {
+    font-weight: 700
+}
+
+.overfunding .target-value,.overfunding .equity-value {
+    color: #868686
+}
+
+.stats-overfunding {
+    border-color: #323232;
+    padding-top: 19px
+}
+
+.stats-legend {
+    position: absolute;
+    top: -10px;
+    padding: 4px 12px
+}
+
+.c2a {
+    margin: 20px 0
+}
+
+.c2a .btn {
+    width: 100%;
+    text-transform: none;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px
+}
+
+.rodada-video::before {
+    content: "";
+    display: block;
+    width: 70%;
+    margin: 0 auto 40px;
+    border-bottom: 1px solid #dadada
+}
+
+#campanhaConteudo .videos-carousel {
+    margin-bottom: 90px
+}
+
+.videos-carousel {
+    margin-top: 40px
+}
+
+.videos-carousel .slick-track {
+    margin-left: 0
+}
+
+.videos-carousel .title {
+    font-weight: 700;
+    color: #000
+}
+
+.video-carousel {
+    padding: 0 8px
+}
+
+.video-carousel img {
+    border-radius: 8px;
+    margin-bottom: 10px
+}
+
+.slick-prev,.slick-next {
+    height: 75%;
+    width: 30px;
+    border-radius: 5px;
+    top: 0;
+    transform: none
+}
+
+.slick-prev {
+    left: 0
+}
+
+.slick-next {
+    right: 0
+}
+
+.slick-list {
+    margin-left: 30px;
+    margin-right: 30px
+}
+
+.slick-prev:hover,.slick-prev:focus,.slick-next:hover,.slick-next:focus {
+    background: #e5e5e5
+}
+
+#informacaoEmpresa.not_logged_in {
+    filter: blur(3px);
+    user-select: none;
+    pointer-events: none
+}
+
+#login-pop {
+    padding: 30px 30px 30px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 0 30px #ccc;
+    position: sticky;
+    top: 250px;
+    z-index: 1;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#login-pop .action {
+    font-size: 20px;
+    margin: 10px 0 20px
+}
+
+#login-pop .btn {
+    width: 100%
+}
+
+#login-pop .btn:not(:last-child) {
+    margin-bottom: 15px
+}
+
+@media all and (max-width: 900px) {
+    .videos-carousel:not(.single-video) {
+        margin-right:-8%
+    }
+
+    .videos-carousel:not(.single-video) .slick-list {
+        padding: 0 20% 0 0 !important;
+        margin-left: 0;
+        margin-right: 0
+    }
+}
+
