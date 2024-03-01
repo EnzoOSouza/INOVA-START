@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <p class="login-titulo"> <b>Login</b></p>
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()"><b>Login Geral</b></button>
+            </div>
+
+            <form id="login" class="input-group" method="POST" action="/Inova Start/PaginaInicial/pagina_inicial.html">                
+                <input name="email" type="email" class="input-field" placeholder="E-mail" required>
+                <input name="senha" type="password" class="input-field" placeholder="Senha" required>
+                <input type="checkbox" class="check-box"><span>Lembrar Senha</span>
+                <button type="submit" class="submit-btn"><b>Login</b></button>
+            </form>
+            <div class="mt-5">
+                <br>
+                <p><a href="/Inova Start/CadastroInvestidor/cadastro_in.html">Clique aqui</a> para se cadastrar como Investidor.</p>
+                <br>
+                <p><a href="/Inova Start/CadastroInvestidor/cadastro_in.html">Clique aqui</a> para se cadastrar como Startup.</p>
+                <br>
+                <p>Esqueceu a senha? <a href="#">Clique aqui</a>.</p>
+        </div>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

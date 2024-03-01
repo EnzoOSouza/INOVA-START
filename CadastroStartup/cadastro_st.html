@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="cadastro_st.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <p class="cadastro-startup-titulo"> <b>Cadastro Startup</b></p>
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()"><b>Startup</b></button>
+            </div>
+            
+            <form id="login" class="input-group" method="POST" action="conexao_startup.php" onsubmit="return validarEmail('email_startup')">
+                <input name="nome_startup" id="nome_startup" type="text" class="input-field" placeholder="Nome da Startup" required>
+                <input name="cnpj_startup" id="cnpj_startup" type="text" class="input-field" placeholder="CNPJ" oninput="formatCNPJ(this)" required>
+                <input name="ramo" id="ramo_startup" type="text" class="input-field" placeholder="Ramo" required>
+                <input name="telefone_startup" id="telefone_startup"  type="text" class="input-field" placeholder="Telefone" required>
+                <input name="qt_funcionarios" id="qt_funcionarios" type="number" class="input-field" placeholder="Quantidade Aproximada De Funcionários" required>
+                <input name="ds_startup" id="ds_startup"  type="text" class="input-field" placeholder="Breve Descrição Da Empresa" required>
+                <input name="email_startup" id="email_startup" type="email"  class="input-field" placeholder="E-mail" required>
+                <input name="senha_startup" id="senha_startup" type="password" class="input-field" placeholder="Senha" required>
+                <input type="checkbox" class="check-box"><span>Lembrar Senha</span>
+                <button type="submit" class="submit-btn"><b>Cadastrar</b></button>
+            </form>
+            
+            <div class="mt-5">
+                <br>
+                <br>
+                <br>
+                <br>
+                <p >Se você já realizou seu cadastro, <a href="/Inova Start/Login/login.html">clique aqui</a> para fazer login.</p>
+                <br>
+        </div>
+          
+        </div>
+    </div>
+
+    <script src="cadastro_st.js"></script>
+</body>
+</html>
